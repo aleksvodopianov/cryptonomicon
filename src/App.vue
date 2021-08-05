@@ -273,6 +273,7 @@ export default {
 
     handleDelete(tickerToRemove) {
       this.tickers = this.tickers.filter(t => t != tickerToRemove);
+      this.sel = null;
     },
   },
 };
